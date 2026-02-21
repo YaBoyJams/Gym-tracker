@@ -1,0 +1,5 @@
+PR attempt, Date: 21/02/2026, Workout Name: SQUAT, Reps: 1, Weight: 130.0 kg
+PR attempt, Date: 21/02/2026, Workout Name: DEADLIFT, Reps: 2, Weight: 120.0 kg
+PR attempt, Date: 21/02/2026, Workout Name: DEADLIFT, Reps: 1, Weight: 140.0 kg
+PR attempt, Date: 21/02/2026, Workout Name: BENCH PRESS, Reps: 1, Weight: 80.0 kg
+Normal working sets, Date: 21/02/2026, Workout Name: HAMMER CURLS, Sets: 3, Reps: 8, Weight: 18.0 kg
