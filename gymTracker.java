@@ -4,7 +4,7 @@ import java.time.format.DateTimeParseException;
 import java.time.format.ResolverStyle;
 import java.util.Scanner;;
 
-public class gymTracker {
+public class GYMTracker {
     public static void main(String[] args) {
         // Initialise the scanner
         Scanner scanner = new Scanner(System.in);
@@ -46,7 +46,7 @@ public class gymTracker {
                         int reps = scanner.nextInt();
                         System.out.print("Enter the weight used (in kg): ");
                         double weight = scanner.nextDouble();
-                        workoutInfo prWorkout = new workoutInfo(workoutName, reps, weight);
+                        WorkoutInfo prWorkout = new WorkoutInfo(workoutName, reps, weight);
                         prWorkout.setPR(pr);
                         System.out.println("Thanks for logging. Here is your workout info: ");
                         prWorkout.displayWorkoutInfo();
@@ -70,7 +70,7 @@ public class gymTracker {
                         int reps = scanner.nextInt();
                         System.out.print("Enter the weight used (in kg): ");
                         double weight = scanner.nextDouble();
-                        workoutInfo nonPRWorkout = new workoutInfo(workoutName, reps, weight);
+                        WorkoutInfo nonPRWorkout = new WorkoutInfo(workoutName, reps, weight);
                         nonPRWorkout.setSets(sets);
                         nonPRWorkout.setPR(pr);
                         System.out.println("Thanks for logging. Here is your workout info: ");
@@ -123,7 +123,7 @@ public class gymTracker {
                         System.out.print("Invalid date. Example: 21/02/2026. Enter the date again: ");
                     }
                 }
-                workoutInfo workoutHistory = new workoutInfo(exerciseName, 0, 0);
+                WorkoutInfo workoutHistory = new WorkoutInfo(exerciseName, 0, 0);
                 // Convert to the exact format stored in WorkoutHistory.txt
                 String formattedDate = date.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
 

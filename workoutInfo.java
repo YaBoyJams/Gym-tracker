@@ -4,7 +4,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.LocalDateTime;
 import java.io.*;
 
-public class workoutInfo {
+public class WorkoutInfo {
     private String workoutName;
     private int sets;
     private int reps;
@@ -26,7 +26,7 @@ public class workoutInfo {
      * @param reps        the number of reps performed
      * @param weight      the weight used for the workout
      */
-    public workoutInfo(String workoutName, int reps, double weight) {
+    public WorkoutInfo(String workoutName, int reps, double weight) {
         setWorkoutName(workoutName);
         setReps(reps);
         setWeight(weight);
